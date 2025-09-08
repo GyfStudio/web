@@ -2656,6 +2656,7 @@ img.u-pull-left {
  * ## theme-specific typography classes
  * ------------------------------------------------------------------- */
 .text-pretitle {
+    font-weight: bold;
     font-family    : var(--font-1); 
     font-size      : var(--text-sm);
     font-weight    : 400;
@@ -2668,6 +2669,15 @@ img.u-pull-left {
     position       : relative;
 }
 
+.bold1{
+    font-weight: bold;
+
+}
+
+.legal{
+    font-size: small;
+}
+
 .text-pretitle.with-line2{
     font-family : var(--font-1);
     font-size      : var(--text-sm);
@@ -2675,6 +2685,7 @@ img.u-pull-left {
     color          : var(--color-white);
     position       : relative;
     text-transform: initial;
+    
 }
 
 .text-pretitle.with-line {
@@ -3600,6 +3611,7 @@ img.u-pull-left {
 
 .s-works .h1 {
     margin-top : 0;
+    font-weight: bold;
 }
 
 /* --------------------------------------------------------------------
